@@ -10,13 +10,17 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 // Add this import at the top of your file
 import { Montserrat } from 'next/font/google'
-
+interface Tattoo {
+  id: number;
+  src: string;
+}
 // Initialize the font
 const montserrat = Montserrat({ subsets: ['latin'] })
 export default function ApothicTattoo() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
-  const [selectedTattoo, setSelectedTattoo] = useState(null)
+  const [selectedTattoo, setSelectedTattoo] = useState<Tattoo | null>(null);
+
   const sliderRef = useRef(null)
 
   useEffect(() => {
