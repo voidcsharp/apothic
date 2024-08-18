@@ -228,7 +228,7 @@ export default function ApothicTattoo() {
               <p className="text-zinc-400 font-light">219 W Main St, Morristown, TN 37814 (423) 307-5787</p>
             </div>
             <div className="w-full md:w-1/3 mb-8 md:mb-0">
-              <h4 className="text-xl font-semibold mb-4 text-zinc-300">Ritual Hours</h4>
+              <h4 className="text-xl font-semibold mb-4 text-zinc-300">Business Hours</h4>
               <p className="text-zinc-400 font-light">Tuesday-Thursday: 12PM - 8PM</p>
               <p className="text-zinc-400 font-light">Sunday and Monday: Closed</p>
             </div>
